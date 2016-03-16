@@ -20,7 +20,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	//b, err := json.MarshalIndent(o, "", "	")
 	b, err := json.MarshalIndent(o, "", "  ")
 	if err != nil {
 		fmt.Println(err)
